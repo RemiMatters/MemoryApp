@@ -1,7 +1,8 @@
 import React from 'react'
+import MemoryApp from './memory'
 
 const App = () => {
-  return <>hi</>
+  return <MemoryApp />
 }
 
 export default App
