@@ -2,9 +2,9 @@
   "name": "project-md",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://remimatters.github.io/memory-app",
+  "homepage": "https://deathhorni.github.io/memory-app",
   "dependencies": {
-    "@types/react-dom": "^18.2.7",
+    "@types/react-dom": "18.2.7",
     "normalize.css": "8.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
