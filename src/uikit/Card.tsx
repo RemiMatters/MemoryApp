@@ -9,7 +9,9 @@ const Wrapper = styled.button`
   padding: 8px;
   width: 300px;
   min-height: 40px;
-  background: lightblue;
+  background: #09f;
+  color: #fff;
+  font-weight: 600;
   cursor: pointer;
 `
 
