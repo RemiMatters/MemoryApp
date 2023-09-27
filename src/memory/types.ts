@@ -11,5 +11,4 @@ export interface ICreateNewCardProps {
 
 export interface INewCardsProps {
   cards: INewCard[]
-  onDelete: (idx: number) => void
 }

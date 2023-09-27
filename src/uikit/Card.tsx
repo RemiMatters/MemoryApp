@@ -19,18 +19,16 @@ interface IProps {
   className?: string
   question: React.ReactNode
   answer: React.ReactNode
-  onDelete?: () => void
 }
 
 const Card = (props: IProps) => {
-  const { className, question, answer, onDelete } = props
+  const { className, question, answer } = props
 
   const [ open, setOpen ] = useState(false)
 
   return (
     <Wrapper className={className} onClick={() => { setOpen(!open) }}>
       {open ? answer : question}
-      {!!onDelete && !open && <button onClick={onDelete} style={{ marginLeft: 'auto' }}>delete</button>}
     </Wrapper>
   )
 }

@@ -8,7 +8,7 @@ import * as UI from './ui.styles'
 
 const Cards = () => {
   return (
-    <>
+    <UI.CommonWrapper>
       {cardsJson.map((cardsCollection) => {
         return (
           <UI.Wrapper key={cardsCollection.title}>
@@ -21,7 +21,7 @@ const Cards = () => {
           </UI.Wrapper>
         )
       })}
-    </>
+    </UI.CommonWrapper>
   )
 }
 

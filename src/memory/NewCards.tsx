@@ -7,7 +7,7 @@ import * as UI from './ui.styles'
 import { INewCardsProps } from './types'
 
 const NewCards = (props: INewCardsProps) => {
-  const { cards, onDelete } = props
+  const { cards } = props
 
   if (!cards.length) {
     return null
@@ -23,13 +23,12 @@ const NewCards = (props: INewCardsProps) => {
       >
         Копировать карточки
       </Btn>
-      {cards.map((newCard, idx) => {
+      {cards.map((newCard) => {
         return (
           <Card
             key={newCard.key}
             question={newCard.key}
             answer={newCard.value}
-            onDelete={() => { onDelete(idx) }}
           />
         )
       })}
