@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/memory-app/static/css/main.728bb609.css",
+    "main.js": "/memory-app/static/js/main.2572752b.js",
+    "index.html": "/memory-app/index.html",
+    "main.728bb609.css.map": "/memory-app/static/css/main.728bb609.css.map",
+    "main.2572752b.js.map": "/memory-app/static/js/main.2572752b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.728bb609.css",
+    "static/js/main.2572752b.js"
+  ]
+}
